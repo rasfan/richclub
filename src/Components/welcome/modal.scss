@@ -1,0 +1,58 @@
+
+
+.modalcontent{
+    text-align: center !important;
+    background: black;
+    color: yellow;
+    font-size: 15pt !important;
+    font-weight: bolder !important
+}
+
+.modalheader{
+    background: url(./../../utils/images/background.jpg) !important no-repeat;
+   // margin: auto !important;
+    padding: 0;
+    text-align: center !important;
+    background: black;
+    color: yellow;
+    padding-top: 5px;
+    font-size: 20pt !important;
+    font-weight: bolder !important
+    
+    
+    
+}
+.modalheader{
+    img{
+   background:black;
+    margin-left: 8vw !important
+    }
+}
+.modalfooter{
+    background: black
+}
+.mainModal{
+    background: black !important;
+    border: 6px solid yellow !important;
+    border-radius: 20px !important; 
+}
+
+.modal  {
+    background: none !important;
+    border:none !important;
+    border-radius: 152px;
+}
+.modalbtn{
+    background: none !important;
+    width: 205px !important;
+    height: 200px !important;
+    border: none !important;
+    align-items: center !important
+}
+.modalbtn :hover {
+cursor: pointer;
+}
+.modalbtn :focus {
+    outline: none !important;
+    
+}

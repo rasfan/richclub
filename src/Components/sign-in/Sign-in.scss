@@ -1,0 +1,58 @@
+.input {
+    background: none !important;
+    border: none !important;
+    text-align: center !important;
+}
+.input :focus {
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+    text-align: center !important;
+}
+.colInput {
+    margin-bottom: 15px;
+    background-color: #1b1b1b !important;
+    border: 3px solid #fccf3e;
+    border-radius: 30px !important;
+    height: 50px;
+    color: #fccf3e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.colInput:focus {
+    outline: none !important;
+    border: 4px solid #1e9ec4 !important;
+    box-shadow: 0 0 10px #719ece !important;
+    transition: 0.5s !important;
+    transition-delay: 0.1s !important;
+}
+.Signup-logo {
+    background: url('./../../utils/images/signup.png') no-repeat !important;
+}
+
+.btnLogin {
+    button {
+        
+        background: none !important;
+        border: none;
+    }
+}
+.btnLogin {
+    button:focus {
+        outline: none;
+    }
+}
+.btnLogin {
+    button:hover {
+        cursor: pointer;
+    }
+}
+
+.btnLogin {
+    margin-left: 30px;
+}
+
+.signIn-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

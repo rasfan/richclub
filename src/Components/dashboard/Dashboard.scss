@@ -1,0 +1,27 @@
+
+.input {
+    background: none !important;
+    border: none !important;
+    text-align: center !important;
+}
+.inputfile {
+    // background: url('./../../utils/images/save.png') no-repeat;
+    width: 5px;
+    height: 215px;
+    margin-bottom: 30px;
+    text-align: center;
+    opacity: 20;
+}
+.inputfile:hover {
+    cursor: pointer;
+}
+.colcheck {
+    // background-color: #1b1b1b !important;
+    //  border: 3px solid #fccf3e;
+    border-radius: 30px !important;
+    height: 40px;
+    color: #fccf3e;
+    text-align: left;
+
+    //max-width: 10% !important;
+}

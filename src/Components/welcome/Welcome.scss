@@ -1,0 +1,94 @@
+
+// .container-home{
+//     background-image: url(./images/background.jpg);
+//     height: 936px;
+// }
+
+.welcome{
+  //  background: url(./images/login.png)  no-repeat  ;
+    
+    float: right;
+    width: 775px;
+    height: 501px;
+    margin-right: 3%;
+    margin-top: -18%;
+    position: relative;
+}
+.welcome a{
+   // background: url(./images/signup.png) no-repeat;
+    z-index: 11;
+    width: 30%;
+    height: 10%;
+    border: none;
+    right: 34%;
+    position: absolute;
+    border-radius: 50%;
+    top: 239px;
+}
+
+.welcome{
+    img{
+        width:600px;
+         height:370px
+    }
+}
+
+.welcome a img {
+    width: 166px;
+    height: 171px;
+    position: absolute;
+    top: -41px;
+    left: -63px;
+}
+// .luxury{
+//     ul{
+//         padding: 5px;
+//         display: flex;
+//         position: absolute;
+//         left: 522px;
+//         top: 620px;
+//     }
+// }
+// .luxury{
+//     ul li{
+//         margin: 30px;
+//     }
+// }
+// .luxury ul li button {
+    
+//     background: url(./../../utils/images/img-user1.png);
+//    border: 4px solid #fccf3e;
+   
+//     border-radius: 152px;
+//     color: yellow;
+//     height: 190px;
+//     width: 190px;
+    
+    
+        
+    
+// }
+// .luxury ul li button:focus{
+//     outline: none !important;
+// }
+// .luxury ul li button:hover{
+//     cursor: pointer;
+// }
+.modal{
+    background: none;
+    background: none;
+    border: 4px solid #fccf3e;
+    border-radius: 152px;
+}
+
+#name{
+    color: #fcd03edc;
+    position: relative;
+    left: 39px;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.users{
+    margin-top: 100px
+}
