@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, ModalBody, } from 'reactstrap';
+import { Button, Modal, ModalBody, Row, Col } from 'reactstrap';
 import './modal.scss';
 import user from './../../utils/images/img-user1.png';
 import telegram from './../../utils/images/tel.png';
@@ -36,24 +36,32 @@ class ModalExample extends React.Component {
                 >
 
                     <ModalBody className="modalcontent">
-                        <img sizes="3" src={user} alt="user"></img>
+                        <img sizes="3" width="30%" height="30%" src={user} alt="user"></img>
                         <div className="user-info">
                             <p>رضا ذاکری </p>
                             <p>دانشجوی گرافیک دانشگاه شهید بهشتی</p>
                             <p>متولد ۱۳۶۸ ساکن تهران</p>
                         </div>
                         <div>
-
-                            <a href="/welcome">
-                                <img
-                                    width="10%"
-                                    src={telegram}
-                                    alt="telegram"
-                                />
-                            </a>
-                            <a href="/welcome">
-                                <img width="10%" src={insta} alt="instagram" />
-                            </a>
+                            <Row>
+                                <Col xs="2"></Col>
+                                <Col xs="3">
+                                    <a href="/welcome">
+                                        <img
+                                            width="100%"
+                                            src={telegram}
+                                            alt="telegram"
+                                        />
+                                    </a>
+                                </Col>
+                                <Col xs="2"></Col>
+                                <Col xs="3">
+                                    <a href="/welcome">
+                                        <img width="100%" src={insta} alt="instagram" />
+                                    </a>
+                                    <Col xs="2"></Col>
+                                </Col>
+                            </Row>
                         </div>
 
                     </ModalBody>

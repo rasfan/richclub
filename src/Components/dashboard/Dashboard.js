@@ -12,9 +12,10 @@ class Dashboard extends Component {
                     <Row>
                         <Col
                             md={{ size: '6', offset: 3 }}
-                            className="home-baner"
+                            className="welcome-baner"
                         >
                             <img
+
                                 src={signup}
                                 width="100%"
                                 height="100%"
@@ -22,13 +23,14 @@ class Dashboard extends Component {
                             />
                         </Col>
                     </Row>
+
                     <Row>
                         <Col
                             sm={{ size: '6', offset: 5 }}
-                            className="uploadimage"
+                            className="btnLogin"
                         >
                             <label class="filebutton">
-                                <img width="100%" height="100%" src={Save} alt="upload"></img>
+                                <img width="60%" height="60%" src={Save} alt="upload"></img>
                                 <span><input type="file" id="myfile" name="myfile" /></span>
                             </label>
                         </Col>
@@ -64,6 +66,7 @@ class Dashboard extends Component {
                             <p>LUXURY persons access to my Telegram ID</p>
                         </Col>
                     </Row>
+
                     <Col className="colInput" md={{ size: '6', offset: 3 }}>
                         <InputGroup size="md">
                             <Input
@@ -72,6 +75,7 @@ class Dashboard extends Component {
                             />
                         </InputGroup>
                     </Col>
+
                     <Row>
                         <Col className="colcheck" md={{ size: '6', offset: 4 }}>
                             <InputGroup size="md">
@@ -83,6 +87,7 @@ class Dashboard extends Component {
                             <p>LUXURY persons access to my Instagram ID</p>
                         </Col>
                     </Row>
+
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
                             <Input
@@ -91,13 +96,14 @@ class Dashboard extends Component {
                             />
                         </InputGroup>
                     </Col>
+
                     <Col sm="12" md={{ size: 'auto', offset: 4 }}>
                         <div className="btnLogin">
                             <button type="submit">
                                 <img
                                     md={{ size: '4', offset: 5 }}
-                                    width="80%"
-                                    height="80%"
+                                    width="60%"
+                                    height="60%"
                                     src={Save}
                                     alt="sigin"
                                 />

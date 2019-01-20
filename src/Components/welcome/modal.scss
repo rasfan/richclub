@@ -3,6 +3,8 @@
 .modalcontent{
     text-align: center !important;
     background: black;
+    border: 1px solid black !important;
+    border-radius: 5px;
     color: yellow;
     font-size: 15pt !important;
     font-weight: bolder !important
@@ -43,7 +45,6 @@
         background: black !important;
         border: 6px solid yellow !important;
         border-radius: 20px !important; 
-        
         width: 200px
         
 }

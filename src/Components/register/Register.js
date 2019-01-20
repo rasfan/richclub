@@ -46,13 +46,13 @@ class Register extends Component {
                     </Col>
                     <Row>
 
-                        <Col md={{ size: '7', offset: 4 }} xs={{ size: '6', offset: 3 }}>
+                        <Col md={{ size: '6', offset: "4" }} xs={{ size: '6', offset: 3 }}>
                             <div class="btnLogin">
                                 <button type="submit">
                                     <img
                                         // md={{ size: '4', offset: 4 }}
-                                        width="100%"
-                                        height="100%"
+                                        width="60%"
+                                        height="60%"
                                         src={signUp}
                                         alt="sigin"
                                     />

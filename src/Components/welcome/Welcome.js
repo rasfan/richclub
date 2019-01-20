@@ -29,11 +29,11 @@ class Welcome extends Component {
                     <Col md="3" />
                     <Col md="6" className="welcome-baner">
 
-                        <a width="100" height="100" href="/dashboard"><img
+                        <a width="60%" height="60%" href="/dashboard"><img
 
                             src={welcome}
-                            width="100%"
-                            height="100%"
+                            width="90%"
+                            height="90%"
                             alt="welcome"
                         /></a>
                     </Col>
@@ -41,34 +41,34 @@ class Welcome extends Component {
 
                 </Row>
                 <Row className="users">
-                    <Col md="3">
+                    <Col xs="12" md="3">
 
-                        <ModalExample >
-                            <img src={user} alt="user" />
+                        <ModalExample  >
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
                         </ModalExample>{' '}
                         <p id="name">Reza Zakeri</p>
 
                     </Col>
-                    <Col md="3">
+                    <Col xs="12" md="3">
 
                         <ModalExample>
-                            <img src={user} alt="user" />
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
                         </ModalExample>{' '}
                         <p id="name">Reza Zakeri</p>
 
                     </Col>
-                    <Col md="3">
+                    <Col xs="12" md="3">
 
                         <ModalExample>
-                            <img src={user} alt="user" />
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
                         </ModalExample>{' '}
                         <p id="name">Reza Zakeri</p>
 
                     </Col>
-                    <Col md="3">
+                    <Col xs="12" md="3">
 
                         <ModalExample>
-                            <img src={user} alt="user" />
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
                         </ModalExample>{' '}
                         <p id="name">Reza Zakeri</p>
 

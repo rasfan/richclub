@@ -9,19 +9,24 @@
 .home-logo {
     margin-top: 20px;
 }
-.home-baner {
-    margin-top: 2px !important;
-}
 // .home-baner {
-//     img {
-//         width: 100%;
-//         height: 100%;
-//     }
+//     padding-top: 2px !important;
+//     position: absolute !important;
+//     right: -46px !important;
 // }
 .home-baner {
-    a {
-        position: absolute;
-        top: 16vw;
-        right: 20vw;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 50px
+        // width: 100%;
+        // height: 100%;
     }
 }
+// .home-baner {
+//     a {
+//         position: absolute;
+//         top: 16vw;
+//         right: 20vw;
+//     }
+// }

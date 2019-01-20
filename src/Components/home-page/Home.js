@@ -19,18 +19,18 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="5" className="home-logo">
+                    <Col md="4" className="home-logo">
                         <img src={logo} width="100%" height="100%" alt="logo" />
                     </Col>
-                    <Col md="1" />
-                    <Col md="6" className="home-baner ">
+                    <Col md="2" />
+                    <Col md="5" className="home-baner ">
 
 
                         <a width="100%"
                             height="100%" href="/register"><img
                                 src={signup}
-                                width="125%"
-                                height="150%"
+                                width="100%"
+                                height="100%"
                                 alt="signup"
                             /></a>
                     </Col>
