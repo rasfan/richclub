@@ -27,9 +27,13 @@ class Dashboard extends Component {
                             sm={{ size: '6', offset: 5 }}
                             className="uploadimage"
                         >
-                            <Input type="file" className="inputfile" />
+                            <label class="filebutton">
+                                <img width="100%" height="100%" src={Save} alt="upload"></img>
+                                <span><input type="file" id="myfile" name="myfile" /></span>
+                            </label>
                         </Col>
                     </Row>
+
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
                             <Input placeholder="Full Name" className="input" />

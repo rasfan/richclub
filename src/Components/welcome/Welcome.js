@@ -26,18 +26,19 @@ class Welcome extends Component {
         return (
             <Container>
                 <Row>
-                    <Col sm="3"></Col>
-                    <Col sm="6" className="home-baner">
-                        <img
+                    <Col md="3" />
+                    <Col md="6" className="welcome-baner">
+
+                        <a width="100" height="100" href="/dashboard"><img
 
                             src={welcome}
                             width="100%"
                             height="100%"
                             alt="welcome"
-                        />
-                        <a href="/dashboard">a</a>
+                        /></a>
                     </Col>
-                    <Col sm="3"></Col>
+                    <Col md="3"></Col>
+
                 </Row>
                 <Row className="users">
                     <Col md="3">

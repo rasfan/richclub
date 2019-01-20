@@ -35,6 +35,29 @@
     background: black !important;
     border: 6px solid yellow !important;
     border-radius: 20px !important; 
+    
+}
+@media only screen and (max-width : 580px) {
+    .mainModal{
+        margin-top: 100px !important;
+        background: black !important;
+        border: 6px solid yellow !important;
+        border-radius: 20px !important; 
+        
+        width: 200px
+        
+}
+}
+
+@media only screen and (max-width : 400) {
+    .modalcontent{
+        text-align: center !important;
+        background: black;
+        color: yellow;
+        font-size: 15pt !important;
+        font-weight: bolder !important;
+        height: 200px !important;
+    }
 }
 
 .modal  {

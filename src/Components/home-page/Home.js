@@ -23,16 +23,19 @@ class Home extends Component {
                         <img src={logo} width="100%" height="100%" alt="logo" />
                     </Col>
                     <Col md="1" />
-                    <Col md="6" className="home-baner">
-                        <img
-                            src={signup}
-                            width="100%"
-                            height="100%"
-                            alt="signup"
-                        />
+                    <Col md="6" className="home-baner ">
 
-                        <a href="/register">sign up</a>
+
+                        <a width="100%"
+                            height="100%" href="/register"><img
+                                src={signup}
+                                width="125%"
+                                height="150%"
+                                alt="signup"
+                            /></a>
                     </Col>
+
+
                 </Row>
             </Container>
         );
