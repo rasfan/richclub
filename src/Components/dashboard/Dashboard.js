@@ -25,15 +25,14 @@ class Dashboard extends Component {
                     </Row>
 
                     <Row>
-                        <Col
-                            sm={{ size: '6', offset: 5 }}
-                            className="btnLogin"
-                        >
-                            <label class="filebutton">
+                        <Col md="5" xs="4"></Col>
+                        <Col md="3" xs="4">
+                            <label >
                                 <img width="60%" height="60%" src={Save} alt="upload"></img>
                                 <span><input type="file" id="myfile" name="myfile" /></span>
                             </label>
                         </Col>
+                        <Col md="4" xs="4"></Col>
                     </Row>
 
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
@@ -97,19 +96,31 @@ class Dashboard extends Component {
                         </InputGroup>
                     </Col>
 
-                    <Col sm="12" md={{ size: 'auto', offset: 4 }}>
-                        <div className="btnLogin">
-                            <button type="submit">
-                                <img
-                                    md={{ size: '4', offset: 5 }}
-                                    width="60%"
-                                    height="60%"
-                                    src={Save}
-                                    alt="sigin"
-                                />
-                            </button>
-                        </div>
-                    </Col>
+                    <Row>
+                        <Col md="4"></Col>
+
+                        <Col md="4">
+                            <Row>
+                                <Col xs="3"></Col>
+                                <Col xs="6" className="btnLogin">
+                                    <button type="submit">
+                                        <img
+
+                                            width="100%"
+                                            height="100%"
+                                            src={Save}
+                                            alt="sigin"
+                                        />
+                                    </button>
+
+                                </Col>
+                                <Col xs="3"></Col>
+                            </Row>
+
+                        </Col>
+                        <Col md="4"></Col>
+
+                    </Row>
 
                     <div className="footer" />
 

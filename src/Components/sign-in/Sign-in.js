@@ -7,7 +7,7 @@ class SignIn extends Component {
     render() {
         return (
             <form>
-                <Container>
+                <Container >
                     <Row>
                         <Col
                             xs={{ size: '6', offset: 3 }}
@@ -32,32 +32,41 @@ class SignIn extends Component {
                         </InputGroup>
                     </Col>
                     <Row>
-                        <Col md={{ size: '7', offset: 4 }} xs={{ size: '6', offset: 3 }}>
-                            <div className="btnLogin">
-                                <button type="submit">
-                                    <img
-                                        // sm="4"
-                                        //  md="6"
-                                        width="100%"
-                                        height="100%"
-                                        src={signIn}
-                                        alt="sigin"
-                                    />
-                                </button>
-                            </div>
+                        <Col md="4"></Col>
+
+                        <Col md="4">
+                            <Row>
+                                <Col xs="3"></Col>
+                                <Col xs="6" className="btnLogin">
+                                    <button type="submit">
+                                        <img
+
+                                            width="100%"
+                                            height="100%"
+                                            src={signIn}
+                                            alt="sigin"
+                                        />
+                                    </button>
+
+                                </Col>
+                                <Col xs="3"></Col>
+                            </Row>
+
                         </Col>
+                        <Col md="4"></Col>
+
                     </Row>
                     <Row className="signIn-link">
-
-                        <Col md={{ size: '7', offset: 4 }} xs={{ size: '12', offset: 1 }} className="signIn-link">
+                        <Col md="4" xs="2"></Col>
+                        <Col md="4" xs="8" >
                             <a href="/Register"> - Create New Account -</a>
                         </Col>
 
-
+                        <Col md="4" xs="2"></Col>
                     </Row>
                     <div className="footer" />
                 </Container>
-            </form>
+            </form >
         );
     }
 }

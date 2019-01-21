@@ -58,3 +58,10 @@
 .welcome-baner {
     margin-top: 20px;
 }
+
+@media only screen and (min-width : 325px){
+    .contain{
+        max-width: 325px;
+        overflow: hidden;
+    }
+}

@@ -45,21 +45,29 @@ class Register extends Component {
                         </InputGroup>
                     </Col>
                     <Row>
+                        <Col md="4"></Col>
 
-                        <Col md={{ size: '6', offset: "4" }} xs={{ size: '6', offset: 3 }}>
-                            <div class="btnLogin">
-                                <button type="submit">
-                                    <img
-                                        // md={{ size: '4', offset: 4 }}
-                                        width="60%"
-                                        height="60%"
-                                        src={signUp}
-                                        alt="sigin"
-                                    />
-                                </button>
-                            </div>
+                        <Col md="4">
+                            <Row>
+                                <Col xs="3"></Col>
+                                <Col xs="6" className="btnLogin">
+                                    <button type="submit">
+                                        <img
+
+                                            width="100%"
+                                            height="100%"
+                                            src={signUp}
+                                            alt="sigin"
+                                        />
+                                    </button>
+
+                                </Col>
+                                <Col xs="3"></Col>
+                            </Row>
+
                         </Col>
-                        <Col xs="1" />
+                        <Col md="4"></Col>
+
                     </Row>
                     <Row className="signIn-link">
 

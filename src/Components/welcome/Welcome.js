@@ -24,10 +24,10 @@ class Welcome extends Component {
     }
     render() {
         return (
-            <Container>
+            <Container className="contain">
                 <Row>
-                    <Col md="3" />
-                    <Col md="6" className="welcome-baner">
+                    <Col md="3" xs="1" />
+                    <Col md="6" xs="10" className="welcome-baner">
 
                         <a width="60%" height="60%" href="/dashboard"><img
 
@@ -37,7 +37,7 @@ class Welcome extends Component {
                             alt="welcome"
                         /></a>
                     </Col>
-                    <Col md="3"></Col>
+                    <Col md="3" xs="1"></Col>
 
                 </Row>
                 <Row className="users">
