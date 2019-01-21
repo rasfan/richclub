@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Dashboard.scss';
-import { Container, Row, Col, InputGroup, Input } from 'reactstrap';
+import { Container, Row, Col, InputGroup, Input, InputGroupAddon, InputGroupText } from 'reactstrap';
 
 import Save from './../../utils/images/save.png';
 import signup from './../../utils/images/login.png';
@@ -30,16 +30,31 @@ class Dashboard extends Component {
 
                             <label >
                                 <img width="60%" height="60%" src={Save} alt="upload"></img>
-                                <span><input className="upload" type="file" id="myfile" name="myfile" /></span>
+                                <span><Input type="file" id="myfile" name="myfile" /></span>
                             </label>
 
                         </Col>
                         <Col md="3" xs="4"></Col>
                     </Row>
+                    {/* <Col md={{ size: '6', offset: 3 }} >
+                        <InputGroup readOnly>
+                            <InputGroupAddon readOnly addonType="prepend">
+                                <InputGroupText className="shik">
+                                    <Input readOnly addon type="checkbox" className="input" />
 
+                                </InputGroupText>
+                            </InputGroupAddon>
+                            <Input readOnly className="input chek " value="LUXURY persons access to my Telegram ID" />
+                        </InputGroup>
+                    </Col> */}
+                    {/* <Col md={{ size: '6', offset: 3 }} >
+                        <InputGroup size="xs">
+                            <Input size="xs" placeholder="Full Name" />
+                        </InputGroup>
+                    </Col> */}
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
-                            <Input placeholder="Full Name" className="input" />
+                            <Input placeholder="Bio" className="input" />
                         </InputGroup>
                     </Col>
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
@@ -56,7 +71,7 @@ class Dashboard extends Component {
                         </InputGroup>
                     </Col>
 
-                    <Row>
+                    {/* <Row>
                         <Col className="colcheck" sm={{ size: '6', offset: 4 }}>
                             <InputGroup size="xs">
                                 <Input
@@ -66,7 +81,18 @@ class Dashboard extends Component {
                             </InputGroup>
                             <p>LUXURY persons access to my Telegram ID</p>
                         </Col>
-                    </Row>
+                    </Row> */}
+                    <Col md={{ size: '6', offset: 3 }} >
+                        <InputGroup readOnly>
+                            <InputGroupAddon readOnly addonType="prepend">
+                                <InputGroupText className="shik">
+                                    <Input readOnly addon type="checkbox" className="input" />
+
+                                </InputGroupText>
+                            </InputGroupAddon>
+                            <Input readOnly className="input chek " value="LUXURY persons access to my Telegram ID" />
+                        </InputGroup>
+                    </Col>
 
                     <Col className="colInput" md={{ size: '6', offset: 3 }}>
                         <InputGroup size="md">
@@ -77,17 +103,17 @@ class Dashboard extends Component {
                         </InputGroup>
                     </Col>
 
-                    <Row>
-                        <Col className="colcheck" md={{ size: '6', offset: 4 }}>
-                            <InputGroup size="md">
-                                <Input
-                                    type="checkbox"
-                                    placeholder="Telegram ID"
-                                />
-                            </InputGroup>
-                            <p>LUXURY persons access to my Instagram ID</p>
-                        </Col>
-                    </Row>
+                    <Col md={{ size: '6', offset: 3 }} >
+                        <InputGroup readOnly>
+                            <InputGroupAddon readOnly addonType="prepend">
+                                <InputGroupText className="shik">
+                                    <Input readOnly addon type="checkbox" className="input" />
+
+                                </InputGroupText>
+                            </InputGroupAddon>
+                            <Input readOnly className="input chek " value="LUXURY persons access to my Insta ID" />
+                        </InputGroup>
+                    </Col>
 
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
@@ -124,10 +150,11 @@ class Dashboard extends Component {
 
                     </Row>
 
+
                     <div className="footer" />
 
-                </Container>
-            </form>
+                </Container >
+            </form >
         );
     }
 }
