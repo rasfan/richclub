@@ -36,17 +36,7 @@ class Dashboard extends Component {
                         </Col>
                         <Col md="3" xs="4"></Col>
                     </Row>
-                    {/* <Col md={{ size: '6', offset: 3 }} >
-                        <InputGroup readOnly>
-                            <InputGroupAddon readOnly addonType="prepend">
-                                <InputGroupText className="shik">
-                                    <Input readOnly addon type="checkbox" className="input" />
 
-                                </InputGroupText>
-                            </InputGroupAddon>
-                            <Input readOnly className="input chek " value="LUXURY persons access to my Telegram ID" />
-                        </InputGroup>
-                    </Col> */}
                     {/* <Col md={{ size: '6', offset: 3 }} >
                         <InputGroup size="xs">
                             <Input size="xs" placeholder="Full Name" />
@@ -54,7 +44,7 @@ class Dashboard extends Component {
                     </Col> */}
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
-                            <Input placeholder="Bio" className="input" />
+                            <Input placeholder="Full name" className="input" />
                         </InputGroup>
                     </Col>
                     <Col md={{ size: '6', offset: 3 }} className="colInput">
