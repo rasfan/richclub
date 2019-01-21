@@ -2,6 +2,7 @@
     background: none !important;
     border: none !important;
     text-align: center !important;
+    color: #fccf3e !important;
 }
 .input :focus {
     outline: none !important;
@@ -15,9 +16,10 @@
     border: 3px solid #fccf3e;
     border-radius: 30px !important;
     height: 50px;
-    color: #fccf3e;
+    color: #fccf3e !important;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px
+    
 }
 .colInput:focus {
     outline: none !important;

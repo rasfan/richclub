@@ -45,14 +45,30 @@
 
 #name{
     color: #fcd03edc;
-    position: relative;
-    left: 39px;
-    font-size: 23px;
-    font-weight: bolder;
+    // position: relative;
+    // left: 39px;
+    // font-size: 23px;
+    // font-weight: bolder;
 }
 
 .users{
-    margin-top: 100px
+    margin-top: 100px;
+    
+
+}
+@media only screen and (min-width : 1024px){
+    .users{
+        margin-top: 100px;
+        right: -87px;
+    position: relative;
+    }
+}
+@media only screen and (width : 1024px){
+    .users{
+        margin-top: 100px;
+        right: -60px;
+    position: relative;
+    }
 }
 
 .welcome-baner {
@@ -64,4 +80,10 @@
         max-width: 325px;
         overflow: hidden;
     }
+}
+
+.username p {
+    display: inline;
+    text-overflow: ellipsis
+    //font-size: 10pt !important
 }

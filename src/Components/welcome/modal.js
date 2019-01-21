@@ -25,18 +25,18 @@ class ModalExample extends React.Component {
         return (
             <div>
                 <Button className="modalbtn" color="danger" onClick={this.toggle}>
-                    <img xs="2" width="70%" height="70%" src={user} alt="user"></img>
+                    <img width="100%" height="100%" src={user} alt="user"></img>
 
                     {this.props.buttonLabel}
                 </Button>
-                <Modal className="mainModal"
+                <Modal xs="4" className="mainModal"
                     isOpen={this.state.modal}
                     toggle={this.toggle}
                 //className={this.props.className}
                 >
 
                     <ModalBody className="modalcontent">
-                        <img sizes="3" width="30%" height="30%" src={user} alt="user"></img>
+                        <img width="33%" height="33%" src={user} alt="user"></img>
                         <div className="user-info">
                             <p>رضا ذاکری </p>
                             <p>دانشجوی گرافیک دانشگاه شهید بهشتی</p>

@@ -7,7 +7,8 @@
     border-radius: 5px;
     color: #fccf3e;
     font-size: 15pt !important;
-    font-weight: bolder !important
+    font-weight: bolder !important;
+    
 }
 
 .modalheader{
@@ -35,8 +36,9 @@
 }
 .mainModal{
     background: black !important;
-    border: 6px solid #fccf3e !important;
+    border: 8px solid #fccf3e !important;
     border-radius: 20px !important; 
+   // height: 100%;
     
 }
 @media only screen and (max-width : 580px) {
@@ -65,13 +67,19 @@
     background: none !important;
     border:none !important;
     border-radius: 152px;
+    
 }
 .modalbtn{
-    background: none !important;
-    width: 205px !important;
-    height: 200px !important;
-    border: none !important;
-    align-items: center !important
+    background:none !important;
+    background-image: url(./../../utils/images/imag-border.png)   no-repeat  !important;
+  //  width: 42px !important;
+  // height: 42px !important;
+  //  border: 5px solid #fccf3e  !important;
+  border: none !important;
+   border-radius: 150% !important;
+   // align-items: center !important;
+    
+    
 }
 .modalbtn :hover {
 cursor: pointer;
