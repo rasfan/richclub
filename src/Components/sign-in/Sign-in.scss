@@ -55,6 +55,14 @@
 // }
 
 .signIn-link {
-    margin-top: 20px;
+    margin-top: 200px;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width : 800px) {
+    .signIn-link a {
+       font-size: 15px !important
+
+        
+}
 }
