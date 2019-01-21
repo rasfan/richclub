@@ -25,7 +25,7 @@ class ModalExample extends React.Component {
         return (
             <div>
                 <Button className="modalbtn" color="danger" onClick={this.toggle}>
-                    <img xs="2" src={user} alt="user"></img>
+                    <img xs="2" width="70%" height="70%" src={user} alt="user"></img>
 
                     {this.props.buttonLabel}
                 </Button>
