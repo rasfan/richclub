@@ -45,11 +45,23 @@
 
 #name{
     color: #fcd03edc;
+   // font-size: 8px !important;
+   // font-weight: bolder !important;
     // position: relative;
     // left: 39px;
     // font-size: 23px;
     // font-weight: bolder;
 }
+@media only screen and (max-width : 600px){
+    #name{
+        color: #fcd03edc;
+        font-size: 8px !important;
+        font-weight: bolder  !important;
+        // position: relative;
+        // left: 39px;
+        // font-size: 23px;
+        // font-weight: bolder;
+    }}
 
 .users{
     margin-top: 100px;

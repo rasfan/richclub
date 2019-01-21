@@ -54,8 +54,8 @@ class Register extends Component {
                                     <button type="submit">
                                         <img
 
-                                            width="100%"
-                                            height="100%"
+                                            width="80%"
+                                            height="80%"
                                             src={signUp}
                                             alt="sigin"
                                         />

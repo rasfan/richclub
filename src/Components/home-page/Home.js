@@ -1,31 +1,49 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import './Home.scss';
-import signup from './../../utils/images/login.png';
-
+import './../welcome/Welcome.scss';
 import logo from './../../utils/images/logo.png';
+import signup from './../../utils/images/login.png';
+import user from './../../utils/images/img-user1.png';
+import ModalExample from './../welcome/modal';
 
-class Home extends Component {
+import { Container, Row, Col } from 'reactstrap';
+
+class Welcome extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            modal: false
+        };
+
+        this.toggle = this.toggle.bind(this);
+    }
+
+    toggle() {
+        this.setState({
+            modal: !this.state.modal
+        });
+    }
     render() {
         return (
-            <Container>
+            <Container className="contain">
                 <Row>
                     <Col
-                        md="4"
-                        sm={{ size: 'auto', offset: 1 }}
-                        className="signIn-link"
+                        md={{ size: '4', offset: 4 }}
+                        xs={{ size: '6', offset: 3 }}
+                        className="home-logo"
                     >
-                        <a href="/sign-in"> Sign in</a>
+                        <img
+                            src={logo}
+                            width="100%"
+                            height="100%"
+                            alt="logo"
+                        />
                     </Col>
                 </Row>
                 <Row>
-                    <Col md="4" className="home-logo">
-                        <img src={logo} width="100%" height="100%" alt="logo" />
-                    </Col>
-                    <Col md="2" />
-                    <Col md="5" className="home-baner ">
-
-
+                    <Col
+                        md={{ size: '6', offset: 3 }}
+                        className="welcome-baner"
+                    >
                         <a width="100%"
                             height="100%" href="/register"><img
                                 src={signup}
@@ -34,12 +52,64 @@ class Home extends Component {
                                 alt="signup"
                             /></a>
                     </Col>
+                </Row>
+
+                <Row className="users">
+
+                    <Col xs="4" md="4">
+
+                        <ModalExample  >
+                            <img src={user} alt="user" />
+
+                        </ModalExample>{' '}
+                        <Col md={{ size: "4", offset: 2 }} ><p id="name">Reza Zakeri</p></Col>
+
+                    </Col>
+                    <Col xs="4" md="4" >
+
+                        <ModalExample>
+                            <img src={user} alt="user" />
+                        </ModalExample>{' '}
+                        <Col md={{ size: "4", offset: 2 }} ><p id="name">Reza Zakeri</p></Col>
+
+                    </Col>
+                    <Col xs="4" md="4">
+
+                        <ModalExample>
+                            <img src={user} alt="user" />
+                        </ModalExample>{' '}
+                        <Col md={{ size: "4", offset: 2 }} ><p id="name">Reza Zakeri</p></Col>
+
+                    </Col>
+
+
+
+                    {/* <Col xs="12" md="3">
+
+                        <ModalExample>
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
+                        </ModalExample>{' '}
+                        <p id="name">Reza Zakeri</p>
+
+                    </Col>
+                    <Col xs="12" md="3">
+
+                        <ModalExample>
+                            <img sizes="3" width="30%" height="30%" src={user} alt="user" />
+                        </ModalExample>{' '}
+                        <p id="name">Reza Zakeri</p>
+
+                    </Col> */}
+
 
 
                 </Row>
-            </Container>
+
+
+                <div className="footer" />
+            </Container >
         );
     }
 }
 
-export default Home;
+export default Welcome;
