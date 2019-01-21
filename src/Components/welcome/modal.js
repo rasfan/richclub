@@ -29,7 +29,7 @@ class ModalExample extends React.Component {
 
                     {this.props.buttonLabel}
                 </Button>
-                <Modal xs="4" className="mainModal"
+                <Modal className="mainModal"
                     isOpen={this.state.modal}
                     toggle={this.toggle}
                 //className={this.props.className}
@@ -48,7 +48,7 @@ class ModalExample extends React.Component {
                                 <Col xs="3">
                                     <a href="/welcome">
                                         <img
-                                            width="100%"
+                                            width="70%"
                                             src={telegram}
                                             alt="telegram"
                                         />
@@ -57,7 +57,7 @@ class ModalExample extends React.Component {
                                 <Col xs="2"></Col>
                                 <Col xs="3">
                                     <a href="/welcome">
-                                        <img width="100%" src={insta} alt="instagram" />
+                                        <img width="70%" src={insta} alt="instagram" />
                                     </a>
                                     <Col xs="2"></Col>
                                 </Col>

@@ -6,7 +6,7 @@
     border: 1px solid black !important;
     border-radius: 5px;
     color: #fccf3e;
-    font-size: 15pt !important;
+    font-size: 10pt !important;
     font-weight: bolder !important;
     
 }
@@ -82,11 +82,11 @@
     
 }
 .modalbtn{
-    background:none !important;
-    background-image: url(./../../utils/images/imag-border.png)   no-repeat  !important;
+    background: none   !important;
+   // background-image: url(./../../utils/images/imag-border.png)   no-repeat  !important;
   //  width: 42px !important;
   // height: 42px !important;
-  //  border: 5px solid #fccf3e  !important;
+  // border: 5px solid #fccf3e  !important;
   border: none !important;
    border-radius: 150% !important;
    // align-items: center !important;
@@ -94,9 +94,19 @@
     
 }
 .modalbtn :hover {
-cursor: pointer;
+cursor: pointer !important;
 }
 .modalbtn :focus {
-    outline: none !important;
+    outline:black !important;
+    border: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: 0 none !important;}
+
+    button:focus{
+        border: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    outline: 0 none !important;}
+
     
-}

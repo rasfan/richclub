@@ -3,12 +3,25 @@
     border: none !important;
     text-align: center !important;
     color: #fccf3e !important;
+    
+    
+    
+  //  height: 20px !important;
 }
 .input :focus {
     outline: none !important;
+    shape-outside: none !important;
     background: none !important;
     border: none !important;
     text-align: center !important;
+}
+.input :focus-visible{
+    outline: none !important;
+}
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
 }
 .colInput {
     margin-bottom: 15px;
@@ -27,6 +40,7 @@
     box-shadow: 0 0 10px #719ece !important;
     transition: 0.5s !important;
     transition-delay: 0.1s !important;
+  
 }
 .Signup-logo {
     background: url('./../../utils/images/signup.png') no-repeat !important;
@@ -55,7 +69,7 @@
 // }
 
 .signIn-link {
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
