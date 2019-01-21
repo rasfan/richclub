@@ -36,8 +36,8 @@ class SignIn extends Component {
 
                         <Col md="4">
                             <Row>
-                                <Col xs="3"></Col>
-                                <Col xs="6" className="btnLogin">
+                                <Col sm="3" xs="3"></Col>
+                                <Col sm="6" xs="6" className="btnLogin">
                                     <button type="submit">
                                         <img
 
@@ -49,7 +49,7 @@ class SignIn extends Component {
                                     </button>
 
                                 </Col>
-                                <Col xs="3"></Col>
+                                <Col sm="3" xs="3"></Col>
                             </Row>
 
                         </Col>

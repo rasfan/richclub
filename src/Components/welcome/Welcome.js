@@ -26,19 +26,18 @@ class Welcome extends Component {
         return (
             <Container className="contain">
                 <Row>
-                    <Col md="3" xs="1" />
-                    <Col md="6" xs="10" className="welcome-baner">
-
-                        <a width="60%" height="60%" href="/dashboard"><img
+                    <Col
+                        md={{ size: '6', offset: 3 }}
+                        className="welcome-baner"
+                    >
+                        <img
 
                             src={welcome}
-                            width="90%"
-                            height="90%"
-                            alt="welcome"
-                        /></a>
+                            width="100%"
+                            height="100%"
+                            alt="signup"
+                        />
                     </Col>
-                    <Col md="3" xs="1"></Col>
-
                 </Row>
                 <Row className="users">
                     <Col xs="12" md="3">
