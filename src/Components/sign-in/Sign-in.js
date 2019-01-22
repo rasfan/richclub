@@ -12,13 +12,13 @@ class SignIn extends Component {
                         <Col
                             xs={{ size: '6', offset: 3 }}
                             className="home-logo"
-                        >
-                            <img
-                                src={logo}
-                                width="100%"
-                                height="100%"
-                                alt="logo"
-                            />
+                        > <a href="/"><img
+                            src={logo}
+                            width="100%"
+                            height="100%"
+                            alt="logo"
+                        /></a>
+
                         </Col>
                     </Row>
 

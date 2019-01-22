@@ -31,13 +31,13 @@ class Welcome extends Component {
                         md={{ size: '4', offset: 4 }}
                         xs={{ size: '6', offset: 3 }}
                         className="home-logo"
-                    >
-                        <img
-                            src={logo}
-                            width="100%"
-                            height="100%"
-                            alt="logo"
-                        />
+                    > <a href="/"> <img
+                        src={logo}
+                        width="100%"
+                        height="100%"
+                        alt="logo"
+                    /></a>
+
                     </Col>
                 </Row>
                 <Row>

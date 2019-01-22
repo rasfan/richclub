@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Dashboard.scss';
 import { Container, Row, Col, InputGroup, Input, InputGroupAddon, InputGroupText } from 'reactstrap';
 import Save from './../../utils/images/save.png';
-import border from './../../utils/images/imag-border.png';
+import border from './../../utils/images/image-border1.png';
 import signup from './../../utils/images/login.png';
 class Dashboard extends Component {
     render() {
@@ -26,7 +26,7 @@ class Dashboard extends Component {
 
                     <Row className="uploadfile">
                         <Col md="3" xs="4"></Col>
-                        <Col md="6" xs="4">
+                        <Col className="uploadfile1" md="6" xs="4">
 
                             <label >
                                 <img width="60%" height="60%" src={border} alt="upload"></img>
