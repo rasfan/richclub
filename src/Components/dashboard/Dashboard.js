@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Dashboard.scss';
 import { Container, Row, Col, InputGroup, Input, InputGroupAddon, InputGroupText } from 'reactstrap';
-
 import Save from './../../utils/images/save.png';
+import border from './../../utils/images/imag-border.png';
 import signup from './../../utils/images/login.png';
 class Dashboard extends Component {
     render() {
@@ -24,12 +24,12 @@ class Dashboard extends Component {
                         </Col>
                     </Row>
 
-                    <Row>
+                    <Row className="uploadfile">
                         <Col md="3" xs="4"></Col>
                         <Col md="6" xs="4">
 
                             <label >
-                                <img width="60%" height="60%" src={Save} alt="upload"></img>
+                                <img width="60%" height="60%" src={border} alt="upload"></img>
                                 <span><Input type="file" id="myfile" name="myfile" /></span>
                             </label>
 
@@ -72,16 +72,20 @@ class Dashboard extends Component {
                             <p>LUXURY persons access to my Telegram ID</p>
                         </Col>
                     </Row> */}
+
                     <Col md={{ size: '6', offset: 3 }} >
+
                         <InputGroup readOnly>
                             <InputGroupAddon readOnly addonType="prepend">
                                 <InputGroupText className="shik">
+
                                     <Input readOnly addon type="checkbox" className="input" />
 
                                 </InputGroupText>
                             </InputGroupAddon>
                             <Input readOnly className="input chek " value="LUXURY persons access to my Telegram ID" />
                         </InputGroup>
+
                     </Col>
 
                     <Col className="colInput" md={{ size: '6', offset: 3 }}>
@@ -120,12 +124,12 @@ class Dashboard extends Component {
                         <Col md="4">
                             <Row>
                                 <Col xs="3"></Col>
-                                <Col xs="6" className="btnLogin">
+                                <Col xs="6" className="btnLogin save">
                                     <button type="submit">
                                         <img
 
-                                            width="80%"
-                                            height="80%"
+                                            width="70%"
+                                            height="70%"
                                             src={Save}
                                             alt="sigin"
                                         />
@@ -136,11 +140,13 @@ class Dashboard extends Component {
                             </Row>
 
                         </Col>
-                        <Col md="4"></Col>
+                        <Col md="4">
+                        </Col>
 
                     </Row>
 
-
+                    {/* <input type="checkbox" name="checkboxG4" id="checkboxG4" class="css-checkbox"></input>
+                    <label for="checkboxG4" class="css-label">asasas</label> */}
                     <div className="footer" />
 
                 </Container >

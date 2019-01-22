@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Register.scss';
-import { Container, Row, Col, InputGroup, Input } from 'reactstrap';
+import { Container, Row, Col, InputGroup, Input, NavItem, NavLink } from 'reactstrap';
 import logo from './../../utils/images/logo.png';
 import signUp from './../../utils/images/signup.png';
 class Register extends Component {
@@ -69,12 +69,16 @@ class Register extends Component {
                         <Col md="4"></Col>
 
                     </Row>
-                    <Row className="signIn-link">
 
-                        <Col md={{ size: '7', offset: 5 }} xs={{ size: '12', offset: 3 }} className="signIn-link">
-                            <a href="/sign-in"> - sign In -</a>
+                    <Row >
+                        <Col xs="4"></Col>
+                        <Col xs="4" className="signIn-link">
+                            {/* <a href="/sign-in"> - sign In -</a> */}
+                            <NavItem>
+                                <NavLink href="/sign-in"> - sign In -</NavLink>
+                            </NavItem>
                         </Col>
-
+                        <Col xs="4"></Col>
                     </Row>
                     <div className="footer" />
                 </Container>

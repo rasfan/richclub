@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Sign-in.scss';
-import { Container, Row, Col, InputGroup, Input } from 'reactstrap';
+import { Container, Row, Col, InputGroup, Input, NavItem, NavLink } from 'reactstrap';
 import logo from './../../utils/images/logo.png';
 import signIn from './../../utils/images/singin.png';
 class SignIn extends Component {
@@ -21,7 +21,13 @@ class SignIn extends Component {
                             />
                         </Col>
                     </Row>
-                    <Col md={{ size: '6', offset: 3 }} className="colInput">
+
+                    {/* <Col>
+                        <InputGroup size="md">
+                            <Input placeholder="as" className="input" ></Input>
+                        </InputGroup>
+                    </Col> */}
+                    {/* <Col md={{ size: '6', offset: 3 }} className="colInput">
                         <InputGroup size="md">
                             <Input placeholder="Email" className="input" />
                         </InputGroup>
@@ -30,6 +36,16 @@ class SignIn extends Component {
                         <InputGroup size="md">
                             <Input placeholder="Password" className="input" />
                         </InputGroup>
+                    </Col> */}
+                    <Col md={{ size: '6', offset: 3 }} className="colInput">
+
+                        <Input placeholder="Email" className="input" />
+
+                    </Col>
+                    <Col md={{ size: '6', offset: 3 }} className="colInput">
+
+                        <Input placeholder="Password" className="input" />
+
                     </Col>
                     <Row>
                         <Col md="4"></Col>
@@ -41,8 +57,8 @@ class SignIn extends Component {
                                     <button type="submit">
                                         <img
 
-                                            width="80%"
-                                            height="80%"
+                                            width="70%"
+                                            height="70%"
                                             src={signIn}
                                             alt="sigin"
                                         />
@@ -59,7 +75,9 @@ class SignIn extends Component {
                     <Row className="signIn-link">
                         <Col md="4" xs="2"></Col>
                         <Col md="4" xs="8" >
-                            <a href="/Register"> - Create New Account -</a>
+                            <NavItem>
+                                <NavLink href="/register">- Create new account -</NavLink>
+                            </NavItem>
                         </Col>
 
                         <Col md="4" xs="2"></Col>
