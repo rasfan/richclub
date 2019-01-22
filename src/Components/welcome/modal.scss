@@ -10,7 +10,9 @@
     font-weight: bolder !important;
     
 }
-
+.border{
+    background: url('./../../utils/images/image-border1.png')
+}
 .modalheader{
     background: url(./../../utils/images/background.jpg) !important no-repeat;
    // margin: auto !important;
@@ -109,4 +111,115 @@ cursor: pointer !important;
     box-shadow: none !important;
     outline: 0 none !important;}
 
-    
+    .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image2 {
+        position: absolute;
+        width: 82%;
+        height: 95%;
+        top: 5px;
+        left: 22px;
+      }
+
+      @media only screen and (min-device-width : 768px) 
+      and (max-device-width : 990px) {
+
+        .parent {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+          .image1 {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+          .image2 {
+            position: absolute;
+    width: 79%;
+    height: 91%;
+    top: 7px;
+    left: 20px;
+          }
+
+      }
+
+      @media only screen and (min-device-width : 575px) 
+      and (max-device-width : 763px) {
+
+        .parent {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+          .image1 {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+          .image2 {
+            position: absolute;
+    width: 71%;
+    height: 93%;
+    top: 4px;
+    left: 19px;
+          }
+
+      }
+      @media only screen and (min-device-width : 234px) 
+      and (max-device-width : 763px) {
+
+        .parent {
+            position: relative;
+            top: 0;
+            left: 0;
+          }
+          .image1 {
+            height: 90px;
+            width: 90px;
+            position: relative;
+            top: -10px;
+            left: -30px;
+          }
+          .image2 {
+            position: absolute;
+            width: 70%;
+            height: 89%;
+            top: -5px;
+            left: -12px;
+          }
+
+      }
+
+    //   @media only screen and (min-device-width : 320px) 
+    //   {
+
+    //     .parent {
+    //         position: relative;
+    //         top: 0;
+    //         left: 0;
+    //       }
+    //       .image1 {
+    //         height: 90px;
+    //         width: 90px;
+    //         position: relative;
+    //         top: -10px;
+    //         left: -13px;
+    //       }
+    //       .image2 {
+    //         position: absolute;
+    //         width: 70%;
+    //         height: 89%;
+    //         top: -5px;
+    //         left: 4px;
+    //       }
+
+    //   }

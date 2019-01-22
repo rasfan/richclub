@@ -4,6 +4,7 @@ import './modal.scss';
 import user from './../../utils/images/img-user1.png';
 import telegram from './../../utils/images/tel.png';
 import insta from './../../utils/images/insta.png';
+import border from './../../utils/images/imag-border.png';
 
 class ModalExample extends React.Component {
     constructor(props) {
@@ -27,8 +28,11 @@ class ModalExample extends React.Component {
         return (
             <div>
                 <Button className="modalbtn" color="danger" onClick={this.toggle}>
-                    <img width="100%" height="100%" src={user} alt="user"></img>
-
+                    <Col className="parent" >
+                        <img className="image1" width="100%" height="100%" src={border} alt={border}></img>
+                        <img className="image2" width="100%" height="100%" src={user} alt="user"></img>
+                    </Col>
+                    {/* <img width="100%" height="100%" src={user} alt="user"></img> */}
                     {this.props.buttonLabel}
                 </Button>
                 <Modal className="mainModal"
